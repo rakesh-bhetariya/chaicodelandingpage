@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./components/navbar";
 import Hero from "./components/herosection";
+import ProofSection  from "./components/proofsection";
 import "./App.css";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="min-h-screen bg-white">
       <Navbar />
       <Hero />
+      <ProofSection />
     </div>
   );
 }
